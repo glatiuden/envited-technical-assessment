@@ -1,0 +1,27 @@
+.event-form input {
+  background-color: #e0e0e0 !important;
+  border: none !important;
+  padding: 16px !important;
+}
+
+.event-form input:hover,
+.event-form input:focus {
+  background-color: #e6e1fc !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.event-create-button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-shrink: 0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

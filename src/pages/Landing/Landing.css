@@ -1,0 +1,28 @@
+.title {
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.landing-subtitle {
+  font-size: 24px;
+  color: #4f4f4f;
+  line-height: 27.6px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .landing-subtitle {
+    font-size: 16px;
+    line-height: 18.4px;
+  }
+}
+
+.title-gradient {
+  background: linear-gradient(to right, #8456ec, #e87bf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

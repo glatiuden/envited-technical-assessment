@@ -1,0 +1,31 @@
+.event-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 55.2px;
+}
+
+.event-subtitle {
+  color: #828282;
+  font-size: 18px;
+  line-height: 20.7px;
+  font-weight: 400;
+}
+
+.event-subtitle-bold {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .event-title {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 32.2px;
+  }
+
+  .event-subtitle {
+    color: #828282;
+    font-size: 14px;
+    line-height: 16.1px;
+    font-weight: 400;
+  }
+}
